@@ -23,11 +23,6 @@ function App() {
       {
         imageData.map(image => <Gallery image={image} key={image.date}/>)
       }
-
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun <span role="img" aria-label='go!'>🚀</span>!
-      </p>
     </div>
   );
 }
